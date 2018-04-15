@@ -1,0 +1,300 @@
+body {
+	font-family: arial,helvetica,sans-serif;
+	overflow:auto;
+	max-width: 100%;
+    overflow-x: hidden;
+    background:url('../img/bg1.png') repeat-x scroll center top #FFFFEE;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.boardTitle {
+	font-family: Tahoma,sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	margin-top: 0px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+
+}
+.navbar {
+	font-size: 10pt;
+	font-weight: normal;
+	padding: 1px;
+	position: absolute;
+	top: 0;
+	text-align: left;
+}
+.top-left {
+	position: fixed;
+	top: 0;
+	right: 0;
+	font-family: Tahoma,sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	padding: 1px;
+}
+.bottom-right {
+	display: inline-block;
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 0px;
+	width: 15px;
+	height: 15px;
+	padding: 0.5%;
+}
+.bottom-right a {
+
+}
+.bottom-right a:hover {
+
+}
+.logo {
+	padding-top: 4%;
+}
+.playinginfo {
+    height: 10%;
+
+    margin: auto;
+}
+.irc {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.stats {
+	position: fixed;
+	bottom: 0;
+	text-align: left;
+	visibility: hidden;
+}
+.stats span {
+	
+}
+.stats:hover .xtrastats {
+	opacity: 1;
+}
+.xtrastats {
+    -webkit-transition: .4s ease-in-out opacity;
+    -moz-transition: .4s ease-in-out opacity;
+    -o-transition: .4s ease-in-out opacity;
+    transition: .4s ease-in-out opacity;
+    opacity: 0;
+}
+.tilde {
+    opacity: 0;
+}
+.songTitle {
+	font-family: Tahoma,sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	margin-top: 0px;
+	padding: 0.25%;
+}
+.songInfo {
+	font-family: Tahoma,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	margin-top: 0px;
+	padding: 0.25%;
+}
+.controls {
+	white-space: nowrap;
+	font-family: Tahoma,sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	margin-top: 0px;
+	padding: 0.25%;
+}
+.controls:hover .tilde {
+	opacity: 1;
+}
+.textButton{
+	cursor: pointer;
+}
+.textButton:hover {
+	
+}
+.textButton2 {
+	font-size: 45px;
+	cursor: pointer;
+}
+.textButton2:hover {
+	
+}
+.directstream {
+	font-family: Tahoma,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin-top: 0px;
+	padding: 0.25%;
+}
+.ircshowhide a {
+	
+}
+.ircshowhide a:hover {
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+input[type=range]{
+    /* fix for FF unable to apply focus style bug  */
+    border: 1px solid white; 
+
+    /*required for proper track sizing in FF*/
+    width: 300px;
+}
+
+input[type=range]::-moz-range-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+}
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring{
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+
+input[type=range]:focus::-moz-range-track {
+    background: #ccc;
+}
+
+#slide{
+	border: black;
+}
+
+.hugeLink{
+	font-size: 40px;
+	text-decoration: underline;
+}
+.container {
+    width: 100%;
+    height: 250px;
+}
+.iframe-class {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    overflow: auto;
+}
+#mydiv {
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+}
+
+
+#mydivheader {
+    cursor: move;
+    background-color: #F32161;
+    color: #fff;
+}
+
+#mydiv2 {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+
+#mydivheader2 {
+    cursor: move;
+    z-index: 10;
+    background-color: #E213BC;
+    color: #fff;
+}
+
+#mydiv3 {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+
+#mydivheader3 {
+    cursor: move;
+    z-index: 10;
+    background-color: #E213BC;
+    color: #fff;
+}
+
+#mydiv4 {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+
+#mydivheader4 {
+    cursor: move;
+    z-index: 10;
+    background-color: #E213BC;
+    color: #fff;
+}
+
+#mydiv5 {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+
+#mydivheader5 {
+    cursor: move;
+    z-index: 10;
+    background-color: #E213BC;
+    color: #fff;
+}

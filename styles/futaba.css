@@ -1,0 +1,145 @@
+body {
+	background:url('../img/yes.gif') repeat-x scroll center top #FFFFEE;
+	background-size: 100% 100%;
+	color: #F3EB3B;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a {
+	color: #21F39A;
+}
+a:hover {
+	color: red;
+}
+.navbar {
+	color: #B86;
+}
+.top-left {
+	color: #B86;
+}
+.bottom-right {
+	background-color: #800000;
+	color: #FFFFEE;
+}
+.bottom-right a {
+	color: #FFFFEE
+}
+.bottom-right a:hover {
+	color: red;
+}
+.stats span {
+	color: red;
+}
+.textButton:hover {
+	color: red;
+}
+.textButton2:hover {
+	color: green;
+}
+.ircshowhide {
+	background-color: #800000;
+	color: #FFFFEE;
+}
+.ircshowhide a {
+	color: #FFFFEE;
+}
+.ircshowhide a:hover {
+	color: red;
+}
+*{padding:0;margin:0;}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	background-color:#CCC;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+#mydivheader {
+    cursor: move;
+    z-index: 10;
+    background-color: #E213BC;
+    color: #fff;
+}
+
+
+#mydiv2 {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+
+#mydivheader2 {
+    cursor: move;
+    z-index: 10;
+    background-color: #E213BC;
+    color: #fff;
+}
+
+#mydiv3 {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+
+#mydivheader3 {
+    cursor: move;
+    z-index: 10;
+    background-color: #E213BC;
+    color: #fff;
+}
+
+#mydiv4 {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+
+#mydivheader4 {
+    cursor: move;
+    z-index: 10;
+    background-color: #E213BC;
+    color: #fff;
+}
+
+#mydiv5 {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+
+#mydivheader5 {
+    cursor: move;
+    z-index: 10;
+    background-color: #E213BC;
+    color: #000;
+}
