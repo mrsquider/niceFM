@@ -100,7 +100,7 @@ function loopstarter(reloadLoop_do=true,tildeLoop_do=true,timeLog_do=true,timeSh
 	}
 }
 function disclaimer(){
-	alerts=[
+    alerts=[
 		"Warning: this site uses cookies, by using this le site your agreeing to be analy probed by a jewush banker",
 		"Warning: Using this site submits your personal information to a government database where it will be held until the dawn of the coming purge.",
 		"Warning: This site monitored by ILLuminati lizard's. Every moment on this site fuels their hunger, and lust for power.",

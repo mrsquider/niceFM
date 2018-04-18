@@ -1,5 +1,5 @@
 body {
-	background:url('../img/yes.gif') repeat-x scroll center top #FFFFEE;
+	background:url('../img/bg11.gif') repeat-x scroll center top #FFFFEE;
 	background-size: 100% 100%;
 	color: #F3EB3B;
 	background-repeat: no-repeat;
@@ -35,6 +35,16 @@ a:hover {
 }
 .textButton2:hover {
 	color: green;
+}
+.ircshowhide {
+	background-color: #800000;
+	color: #FFFFEE;
+}
+.ircshowhide a {
+	color: #FFFFEE;
+}
+.ircshowhide a:hover {
+	color: red;
 }
 
 .float{
@@ -125,7 +135,6 @@ a:hover {
     background-color: #E213BC;
     color: #fff;
 }
-
 iframe {
   overflow: hidden;
 }

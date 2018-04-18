@@ -75,7 +75,7 @@ a:hover {
 	visibility: hidden;
 }
 .stats span {
-	
+
 }
 .stats:hover .xtrastats {
 	opacity: 1;
@@ -122,14 +122,14 @@ a:hover {
 	cursor: pointer;
 }
 .textButton:hover {
-	
+
 }
 .textButton2 {
 	font-size: 45px;
 	cursor: pointer;
 }
 .textButton2:hover {
-	
+
 }
 .directstream {
 	font-family: Tahoma,sans-serif;
@@ -140,7 +140,7 @@ a:hover {
 	padding: 0.25%;
 }
 .ircshowhide a {
-	
+
 }
 .ircshowhide a:hover {
 }
@@ -176,7 +176,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 
 input[type=range]{
     /* fix for FF unable to apply focus style bug  */
-    border: 1px solid white; 
+    border: 1px solid white;
 
     /*required for proper track sizing in FF*/
     width: 300px;
@@ -297,4 +297,8 @@ input[type=range]:focus::-moz-range-track {
     z-index: 10;
     background-color: #E213BC;
     color: #fff;
+
+}
+iframe {
+  overflow: hidden;
 }
